@@ -1,0 +1,25 @@
+/* Remove default margin from the body to prevent unwanted spacing around the edges */
+body {
+    margin: 0; /* Ensures no default margin is applied */
+    height: 100vh; /* Sets the height of the body to fill the entire viewport height */
+    display: flex; /* Enables flexbox for easy layout management */
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    font-family: Arial, sans-serif; /* Sets a clean and modern font for the text */
+    background-color: #000000; /* Applies a light gray background to the entire page */
+}
+
+/* Styles for the container holding the hello element */
+.hello-container {
+    text-align: center; /* Aligns the text within the container to the center */
+}
+
+/* Styles specifically for the hello text */
+.hello {
+    font-size: 3rem; /* Sets the font size to 2 rem units for better visibility */
+    font-weight: bold; /* Makes the text bold to stand out */
+    color: #ffffff; /* Sets the text color to a dark gray for good contrast */
+    /* Additional optional styles can be added here, such as borders or padding */
+}
+
+
